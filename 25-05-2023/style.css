@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+}
+
+.input-container {
+  padding: 20px 40px;
+}
+
+.input {
+  padding: 15px 30px;
+}
+
+.add-btn {
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.list-todo {
+  margin: 5px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
