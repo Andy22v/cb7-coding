@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: bisque;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.todo-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(58, 198, 250, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 400px;
+  padding: 20px;
+}
+
+.input-container {
+  padding: 20px 40px;
+}
+
+.input {
+  padding: 15px 30px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+}
+
+.add-btn {
+  padding: 15px 25px;
+  cursor: pointer;
+  background-color: bisque;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+}
+
+.list-todo {
+  margin: 5px;
+  padding: 5px 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  font-size: larger;
+  background-color: aliceblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.list-todo:hover {
+  background-color: red;
+  color: aliceblue;
+}
